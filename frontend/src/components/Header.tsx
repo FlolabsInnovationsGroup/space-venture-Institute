@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import logo from "../../public/logo.svg";
+import logo from "../../public/assets/space/logo.svg";
 
 const navigation = [
   { name: "About us", href: "/about" },

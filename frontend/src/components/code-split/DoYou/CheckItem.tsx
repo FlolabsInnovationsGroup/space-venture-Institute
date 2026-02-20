@@ -1,18 +1,4 @@
-import {
-  Globe,
-  ArrowRight,
-  Lock,
-  Unlock,
-  Zap,
-  Brain,
-  Shield,
-  Users,
-  PenTool,
-  Scale,
-  Trophy,
-  CheckCircle2,
-  X,
-} from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 export default function CheckItem({ text }: { text: string }) {
   return (
     <div className="flex items-start gap-4">

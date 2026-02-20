@@ -140,7 +140,7 @@ const OurProjectsCarosal: React.FC = () => {
                     onClick={() => goTo(i)}
                     className={`rounded-full transition-all ${
                       active
-                        ? "w-4 h-4 bg-[#F2784B]"
+                        ? "w-4 h-4 bg-[#2962FF]"
                         : "w-3 h-3 bg-[#999999] opacity-50 hover:opacity-80"
                     }`}
                   />

@@ -11,10 +11,10 @@ const Planned = () => {
           </h2>
           <p className="text-gray-100 ">
             Planned where{" "}
-            <span className="font-bold text-[#F2784B]">possible</span>. Open
-            where <span className="font-bold text-[#F2784B]">necessary</span>.
+            <span className="font-bold text-[#2962FF]">possible</span>. Open
+            where <span className="font-bold text-[#2962FF]">necessary</span>.
           </p>
-          <p className=" font-bold text-[#F2784B] ">
+          <p className=" font-bold text-[#2962FF] ">
             We are ready for what comes next.
           </p>
         </div>

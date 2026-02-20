@@ -9,17 +9,17 @@ const WhyChooseUs = () => {
           </h2>
           <div className="space-y-4">
             <div className="flex items-center gap-4 text-lg md:text-2xl font-bold text-gray-400 dark:text-gray-600">
-              <span className="text-[#F2784B]">Not</span>{" "}
+              <span className="text-[#2962FF]">Not</span>{" "}
               <span className=" text-white">
                 a traditional university program.
               </span>
             </div>
             <div className="flex items-center gap-4 text-lg md:text-2xl font-bold text-gray-400 dark:text-gray-600">
-              <span className="text-[#F2784B]">Not</span>{" "}
+              <span className="text-[#2962FF]">Not</span>{" "}
               <span className=" text-white">a passive online course.</span>
             </div>
             <div className="flex items-center gap-4 text-lg md:text-2xl font-bold text-gray-400 dark:text-gray-600">
-              <span className="text-[#F2784B]">Not</span>{" "}
+              <span className="text-[#2962FF]">Not</span>{" "}
               <span className=" text-white">
                 just a fan community for space news.
               </span>
@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
             Space Ventures Institute is: <br />
             <p className="mt-2">
               A startup-powered venture studio, an experiential learning
-              institute, and a <span className="text-[#F2784B]">bridge</span>{" "}
+              institute, and a <span className="text-[#2962FF]">bridge</span>{" "}
               between space-curious talent and real space economy projects.
             </p>
           </h3>
@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
             R&D on humanoid and robotic platforms.
             <hr className="my-2" />
             <p>
-              <span className="text-[#F2784B]">Remote first by design.</span>{" "}
+              <span className="text-[#2962FF]">Remote first by design.</span>{" "}
               You join from anywhere, collaborate online, and choose the
               projects that best fit your interests.
             </p>

@@ -28,9 +28,9 @@ const Hero = () => {
           <span className="">Remote first</span>. Open to the world.
         </p>
         <p className="font-bold">
-          A journey of <span className="text-[#F2784B]">real projects</span>,{" "}
-          <span className="text-[#F2784B]">hands-on work</span>, and{" "}
-          <span className="text-[#F2784B]">growth</span> in the space economy.
+          A journey of <span className="text-[#2962FF]">real projects</span>,{" "}
+          <span className="text-[#2962FF]">hands-on work</span>, and{" "}
+          <span className="text-[#2962FF]">growth</span> in the space economy.
         </p>
       </div>
 

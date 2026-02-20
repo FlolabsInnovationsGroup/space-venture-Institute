@@ -10,12 +10,12 @@ const DeepDive = () => {
           <h1 className="text-3xl md:text-5xl underline font-extrabold mb-4 text-white ">
             Deep Dive: Why We Exist
           </h1>
-          <h2 className="text-[#F2784B] font-bold text-2xl md:text-4xl ">
+          <h2 className="text-[#2962FF] font-bold text-2xl md:text-4xl ">
             Closing the Gap
           </h2>
           <p>
             Most people who love space do not know how to get involved.{" "}
-            <span className="text-[#F2784B]">
+            <span className="text-[#2962FF]">
               Space jobs feel distant and gated
             </span>{" "}
             <br />
@@ -26,7 +26,7 @@ const DeepDive = () => {
             At the same time, the space economy is expanding tourism, robotics,
             AI, wearables, and demand for space content and education. <br />{" "}
             There is a gap between passion and real projects.{" "}
-            <span className="text-[#F2784B]">
+            <span className="text-[#2962FF]">
               Space Ventures Institute exists to close that gap
             </span>{" "}
             by giving you real work, exposing you to how the sector actually
@@ -39,8 +39,8 @@ const DeepDive = () => {
           <div className="p-8 bg-white dark:bg-white/5 rounded-xl border border-gray-200 dark:border-white/5 hover:border-levi-red shadow-sm transition-colors">
             <div className="flex items-center gap-3 mb-4">
               <div className="flex items-center gap-3 ">
-                <div className="relative w-8 h-8 flex items-center justify-center shadow-[#F2784B] shadow-lg border-[#F2784B]">
-                  <Square className="absolute inset-0 w-8 h-8 shadow-[#F2784B] shadow-md" />
+                <div className="relative w-8 h-8 flex items-center justify-center shadow-[#2962FF] shadow-lg border-[#2962FF]">
+                  <Square className="absolute inset-0 w-8 h-8 shadow-[#2962FF] shadow-md" />
                   <span className="text-lg font-bold ">1</span>
                 </div>
                 <h3 className="text-xl font-bold text-[#1a1a1a] dark:text-white">
@@ -57,8 +57,8 @@ const DeepDive = () => {
           <div className="p-8 bg-white dark:bg-white/5 rounded-xl border border-gray-200 dark:border-white/5 hover:border-levi-red shadow-sm transition-colors">
             <div className="flex items-center gap-3 mb-4">
               <div className="flex items-center gap-3">
-                <div className="relative w-8 h-8 flex items-center justify-center shadow-[#F2784B] shadow-lg border-[#F2784B] ">
-                  <Square className="absolute inset-0 w-8 h-8 shadow-[#F2784B] shadow-md" />
+                <div className="relative w-8 h-8 flex items-center justify-center shadow-[#2962FF] shadow-lg border-[#2962FF] ">
+                  <Square className="absolute inset-0 w-8 h-8 shadow-[#2962FF] shadow-md" />
                   <span className="text-lg font-bold">2</span>
                 </div>
                 <h3 className="text-xl font-bold text-[#1a1a1a] dark:text-white">
@@ -75,8 +75,8 @@ const DeepDive = () => {
           <div className="p-8 bg-white dark:bg-white/5 rounded-xl border border-gray-200 dark:border-white/5 hover:border-levi-red shadow-sm transition-colors">
             <div className="flex justify-start gap-3 mb-4">
               <div className="flex items-center gap-3">
-                <div className="relative w-8 h-8 flex items-center justify-center shadow-[#F2784B] shadow-lg border-[#F2784B]">
-                  <Square className="absolute inset-0 w-8 h-8 shadow-[#F2784B] shadow-md" />
+                <div className="relative w-8 h-8 flex items-center justify-center shadow-[#2962FF] shadow-lg border-[#2962FF]">
+                  <Square className="absolute inset-0 w-8 h-8 shadow-[#2962FF] shadow-md" />
                   <span className="text-lg font-bold">3</span>
                 </div>
                 <h3 className="text-xl font-bold text-[#1a1a1a] dark:text-white">
@@ -93,8 +93,8 @@ const DeepDive = () => {
           <div className="p-8 bg-white dark:bg-white/5 rounded-xl border border-gray-200 dark:border-white/5 hover:border-levi-red shadow-sm transition-colors">
             <div className="flex items-center gap-3 mb-4">
               <div className="flex gap-3 items-center">
-                <div className="relative w-8 h-8 flex items-center justify-center shadow-[#F2784B] shadow-lg border-[#F2784B]">
-                  <Square className="absolute inset-0 w-8 h-8 shadow-[#F2784B] shadow-md " />
+                <div className="relative w-8 h-8 flex items-center justify-center shadow-[#2962FF] shadow-lg border-[#2962FF]">
+                  <Square className="absolute inset-0 w-8 h-8 shadow-[#2962FF] shadow-md " />
                   <span className="text-lg font-bold">4</span>
                 </div>
                 <h3 className="text-xl font-bold text-[#1a1a1a] dark:text-white">

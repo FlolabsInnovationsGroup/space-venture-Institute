@@ -67,7 +67,7 @@ export default function WeDonot() {
             </span>{" "}
             <span
               className="
-                bg-gradient-to-r from-[#F2784B] via-cyan-300 to-[#F2784B] 
+                bg-gradient-to-r from-[#2962FF] via-cyan-300 to-[#2962FF] 
                 bg-clip-text text-transparent 
                 text-3xl xs:text-[32px] sm:text-4xl md:text-[44px] lg:text-[52px] 
                 font-black 

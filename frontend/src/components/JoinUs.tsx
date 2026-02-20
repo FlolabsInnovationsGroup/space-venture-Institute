@@ -1,12 +1,12 @@
 const JoinUs = () => {
   return (
     <section className=" relative rounded-[25px] overflow-hidden py-16 px-10 mb-4 ">
-      <h1 className="w-[calc(90%-150px)] bg-[#F2784B] absolute top-65 left-30  h-2 text-[#F2784B] hidden xl:block"></h1>
+      <h1 className="w-[calc(90%-150px)] bg-[#2962FF] absolute top-65 left-30  h-2 text-[#2962FF] hidden xl:block"></h1>
 
       {/* <p className="text-white text-lg mb-8">Who We Serve</p> */}
       <h2 className="mb-24 text-center underline text-[40px] ">
         <span className="text-white text-[40px]  font-bold">How It </span>
-        <span className="text-[#F2784B] text-[40px]  sm:text-[32px] font-bold">
+        <span className="text-[#2962FF] text-[40px]  sm:text-[32px] font-bold">
           Works
         </span>
       </h2>

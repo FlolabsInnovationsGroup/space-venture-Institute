@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import heroImage1 from "../../public/assets/space/hero2.png";
 import heroImage2 from "../../public/assets/space/hero3.jpg";
@@ -7,12 +6,12 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section className="relative bg-[url('/assets/space/hero.jpg')] bg-cover bg-bottom bg-no-repeat w-full min-h-screen rounded-[25px] mt-20 lg:-mt-5 mb-8 ">
-      <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-16 px-6 sm:px-10 lg:px-16 py-16 mt-4 lg:py-10">
+      <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-16 px-6 sm:px-10 lg:px-16 pt-16 mt-4 lg:py-10">
         {/* LEFT */}
         <div className="flex flex-col gap-6 max-w-[650px] text-center lg:text-left">
           {/* Badge */}
-          <div className="flex items-center gap-3 bg-black rounded-[25px] shadow-md w-fit mx-auto lg:mx-0 px-2 py-2">
-            <div className="flex items-center gap-2 px-4 py-2 bg-white/60 rounded-[25px]">
+          <div className="flex items-center gap-3 bg-black rounded-[25px] shadow-md w-full mx-auto lg:mx-0 px-2 py-2">
+            <div className="flex w-[200px] md:w-fit  items-center gap-2 px-3 py-2 bg-white/60 rounded-[25px]">
               <svg
                 width="20"
                 height="20"
@@ -66,7 +65,7 @@ const Hero = () => {
 
           {/* CTA */}
           <Link href="https://hephaestus.international/internships">
-            <button className="bg-[#F2784B] animate-bounce cursor-pointer hover:text-white text-black text-lg sm:text-xl font-bold px-10 sm:px-14 py-4 rounded-[35px] transition hover:opacity-90 lg:mt-5 w-fit mx-auto lg:mx-0">
+            <button className="bg-blue-500 animate-bounce cursor-pointer hover:text-white text-black text-lg sm:text-xl font-bold px-10 sm:px-14 py-4 rounded-[35px] transition hover:opacity-90 lg:mt-5 w-fit mx-auto lg:mx-0">
               Apply Now
             </button>
           </Link>
@@ -113,6 +112,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      {/* this only for the color  */}
+      {/* <span className="text-[#F2784B] text-[40px]  sm:text-[32px] font-bold"> */}
     </section>
   );
 };

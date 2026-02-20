@@ -2,150 +2,104 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="rounded-[25px] bg-black/80 overflow-hidden py-14 px-7 mb-6">
-      <div className="flex flex-col md:flex-row justify-between gap-12">
-        <div className="flex flex-col gap-6">
-          <h3 className="text-white text-[28px] font-bold max-w-[366px]">
-            <Link href={"https://www.flolabsinnovations.com/"}>
-              FloLabs Innovations Group
-            </Link>
-          </h3>
-        </div>
-
-        <div className="flex flex-wrap gap-20">
-          <div className="flex flex-col gap-7">
-            <h4 className="text-white text-[26px] font-medium">Company</h4>
-            <div className="flex flex-col gap-6">
-              <a
-                href="https://hephaestus.international/internships"
-                className="text-white text-lg hover:opacity-80">
-                Internships
-              </a>
-            </div>
+    <footer className="rounded-2xl bg-black/90 overflow-hidden py-10 px-5 sm:px-8 lg:px-16 mb-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid gap-12 lg:grid-cols-4 md:grid-cols-2">
+          {/* Logo / Title */}
+          <div className="flex flex-col gap-6 text-center md:text-left">
+            <h3 className="text-white text-2xl sm:text-3xl font-bold">
+              <Link
+                href="https://www.flolabsinnovations.com/"
+                target="_blank"
+                rel="noopener noreferrer">
+                FloLabs Innovations Group
+              </Link>
+            </h3>
           </div>
 
-          <div className="flex flex-col gap-7">
-            <h4 className="text-white text-[26px] font-medium">
+          {/* Company */}
+          <div className="flex flex-col gap-6 text-center md:text-left">
+            <h4 className="text-white text-xl sm:text-2xl font-semibold">
+              Company
+            </h4>
+            <Link
+              href="https://hephaestus.international/internships"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 text-base hover:text-white transition">
+              Internships
+            </Link>
+          </div>
+
+          {/* Projects */}
+          <div className="flex flex-col gap-6 text-center md:text-left">
+            <h4 className="text-white text-xl sm:text-2xl font-semibold">
               <Link href="/projects">Projects</Link>
             </h4>
-            <div className="flex flex-col gap-6">
-              <Link
-                href="/projects"
-                className="text-white text-lg hover:opacity-80">
-                <span className="text-white text-lg hover:opacity-80">
-                  Legal Buddy
-                </span>
+
+            <div className="flex flex-col gap-4 text-gray-300 text-base">
+              <Link href="/projects" className="hover:text-white transition">
+                CAIPO as a Space Buddy
               </Link>
-              <Link
-                href="/projects"
-                className="text-white text-lg hover:opacity-80">
-                CAIPO
+              <Link href="/projects" className="hover:text-white transition">
+                CAIPO Space Buddy as a Consumer App
               </Link>
-              <Link
-                href="/projects"
-                className="text-white text-lg hover:opacity-80">
+              <Link href="/projects" className="hover:text-white transition">
                 Mood Changer
               </Link>
-              <Link
-                href="/projects"
-                className="text-white text-lg hover:opacity-80">
-                Data Analytics
+              <Link href="/projects" className="hover:text-white transition">
+                Space Travel Agency & Space Tourism Marketplace
               </Link>
             </div>
           </div>
 
-          <div className="flex flex-col gap-7">
-            <h4 className="text-white text-[26px] font-medium">Legal</h4>
-            <div className="flex flex-col gap-6 ">
+          {/* Legal + Social */}
+          <div className="flex flex-col gap-8 text-center md:text-left">
+            <div className="flex flex-col gap-4">
+              <h4 className="text-white text-xl sm:text-2xl font-semibold">
+                Legal
+              </h4>
               <Link
                 href="/about"
-                className="text-white text-lg hover:opacity-80">
+                className="text-gray-300 hover:text-white transition">
                 Who we are
               </Link>
-              {/* <a
-                href="#privacy"
-                className="text-white text-lg hover:opacity-80">
-                Privacy Policy
-              </a> */}
             </div>
-          </div>
 
-          <div className="flex flex-col gap-5">
-            <h4 className="text-white text-[26px] font-medium text-center">
-              Follow Us
-            </h4>
-            <div className="flex items-center gap-8 justify-center">
-              <Link
-                href="https://www.linkedin.com/company/flo-labs-r-d/posts/?feedView=all"
-                className="hover:opacity-80">
-                <svg
-                  width="34"
-                  height="34"
-                  viewBox="0 0 34 34"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <rect width="34" height="34" rx="7.96875" fill="#0A66C2" />
-                  <path
-                    d="M24.5326 28.9111H28.42C28.7134 28.9111 28.9512 28.6734 28.9512 28.38L28.9532 20.1666C28.9532 15.8737 28.0282 12.5739 23.0115 12.5739C21.1044 12.5031 19.306 13.4861 18.3355 15.1277C18.3278 15.1407 18.314 15.1487 18.2989 15.1487C18.2755 15.1487 18.2565 15.1297 18.2565 15.1063V13.5015C18.2565 13.2082 18.0188 12.9703 17.7253 12.9703H14.0361C13.7427 12.9703 13.5049 13.2082 13.5049 13.5015V28.3792C13.5049 28.6727 13.7427 28.9104 14.0361 28.9104H17.9233C18.2167 28.9104 18.4545 28.6727 18.4545 28.3792V21.025C18.4545 18.9455 18.849 16.9317 21.427 16.9317C23.9684 16.9317 24.0013 19.3111 24.0013 21.1596V28.3798C24.0013 28.6732 24.2392 28.9111 24.5326 28.9111Z"
-                    fill="white"
-                  />
-                  <path
-                    d="M5.04688 7.91928C5.04688 9.49504 6.34412 10.7915 7.91989 10.7915C9.49535 10.7914 10.7917 9.49414 10.7917 7.91868C10.7914 6.34322 9.4949 5.04688 7.91928 5.04688C6.34352 5.04688 5.04688 6.34352 5.04688 7.91928Z"
-                    fill="white"
-                  />
-                  <path
-                    d="M5.9707 28.9115H9.86305C10.1565 28.9115 10.3943 28.6736 10.3943 28.3802V13.5019C10.3943 13.2086 10.1565 12.9707 9.86305 12.9707H5.9707C5.67731 12.9707 5.43945 13.2086 5.43945 13.5019V28.3802C5.43945 28.6736 5.67731 28.9115 5.9707 28.9115Z"
-                    fill="white"
-                  />
-                </svg>
-              </Link>
-              {/* <a href="#twitter" className="hover:opacity-80">
-                <svg
-                  width="34"
-                  height="34"
-                  viewBox="0 0 34 34"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <rect width="34" height="34" rx="7.96875" fill="#1D9BF0" />
-                  <path
-                    d="M26.5057 12.1406C26.5203 12.3513 26.5203 12.5621 26.5203 12.7748C26.5203 19.2557 21.5865 26.7301 12.565 26.7301V26.7261C9.89999 26.7301 7.29036 25.9667 5.04688 24.5274C5.43438 24.574 5.82384 24.5973 6.21427 24.5982C8.42278 24.6002 10.5682 23.8591 12.3057 22.4946C10.2069 22.4547 8.36646 21.0864 7.72352 19.0886C8.45872 19.2305 9.21627 19.2012 9.93787 19.0041C7.64971 18.5418 6.00351 16.5314 6.00351 14.1966C6.00351 14.1752 6.00351 14.1549 6.00351 14.1344C6.6853 14.5142 7.44867 14.7249 8.22951 14.7483C6.07441 13.3079 5.4101 10.441 6.71152 8.19942C9.2017 11.2636 12.8758 13.1264 16.8199 13.3235C16.4245 11.62 16.9645 9.83494 18.2387 8.63744C20.2142 6.78049 23.3211 6.87567 25.1781 8.85014C26.2764 8.63356 27.3292 8.2305 28.2926 7.65943C27.9266 8.79478 27.1603 9.75919 26.1366 10.372C27.1088 10.2574 28.0586 9.99713 28.9531 9.5999C28.2946 10.5866 27.4652 11.4462 26.5057 12.1406Z"
-                    fill="white"
-                  />
-                </svg>
-              </a> */}
-              {/* <a href="#instagram" className="hover:opacity-80">
-                <svg
-                  width="34"
-                  height="34"
-                  viewBox="0 0 34 34"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <rect
+            <div className="flex flex-col gap-4">
+              <h4 className="text-white text-xl sm:text-2xl font-semibold text-center md:text-left">
+                Follow Us
+              </h4>
+
+              <div className="flex justify-center md:justify-start gap-6">
+                <Link
+                  href="https://www.linkedin.com/company/flo-labs-r-d/posts/?feedView=all"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:scale-110 transition">
+                  {/* LinkedIn Icon */}
+                  <svg
                     width="34"
                     height="34"
-                    rx="7.96875"
-                    fill="url(#paint0_radial_instagram)"
-                  />
-                  <path
-                    d="M17.0012 3.71875C13.3943 3.71875 12.9416 3.73453 11.5249 3.799C10.111 3.86374 9.14585 4.08758 8.30138 4.41603C7.42786 4.75525 6.68686 5.20904 5.94865 5.94753C5.20986 6.68575 4.75608 7.42674 4.41575 8.3C4.08648 9.14475 3.86236 10.1101 3.79872 11.5235C3.73535 12.9402 3.71875 13.3931 3.71875 17.0001C3.71875 20.6072 3.73479 21.0585 3.799 22.4751C3.86402 23.889 4.08786 24.8541 4.41603 25.6986C4.75552 26.5722 5.2093 27.3132 5.94781 28.0513C6.68575 28.7902 7.42674 29.2451 8.29972 29.5843C9.14475 29.9127 10.1101 30.1365 11.5238 30.2013C12.9405 30.2657 13.3928 30.2815 16.9996 30.2815C20.6069 30.2815 21.0582 30.2657 22.4748 30.2013C23.8887 30.1365 24.8549 29.9127 25.7 29.5843C26.5733 29.2451 27.3132 28.7902 28.0511 28.0513C28.7899 27.3132 29.2436 26.5722 29.584 25.699C29.9104 24.8541 30.1346 23.8887 30.201 22.4753C30.2646 21.0588 30.2812 20.6072 30.2812 17.0001C30.2812 13.3931 30.2646 12.9405 30.201 11.5238C30.1346 10.1099 29.9104 9.14475 29.584 8.30028C29.2436 7.42674 28.7899 6.68575 28.0511 5.94753C27.3124 5.20876 26.5735 4.75498 25.6992 4.41603C24.8525 4.08758 23.8869 3.86374 22.4729 3.799C21.0562 3.73453 20.6052 3.71875 16.9971 3.71875H17.0012ZM15.8097 6.11216C16.1634 6.11162 16.558 6.11216 17.0012 6.11216C20.5474 6.11216 20.9676 6.1249 22.368 6.18853C23.6629 6.24775 24.3658 6.46412 24.8339 6.64591C25.4538 6.88663 25.8956 7.1744 26.3602 7.63926C26.8251 8.1041 27.1127 8.54682 27.3541 9.16661C27.5359 9.63422 27.7525 10.337 27.8115 11.632C27.8751 13.032 27.8889 13.4526 27.8889 16.9971C27.8889 20.5416 27.8751 20.9622 27.8115 22.3622C27.7522 23.6571 27.5359 24.3599 27.3541 24.8276C27.1134 25.4474 26.8251 25.8887 26.3602 26.3533C25.8954 26.8182 25.454 27.1058 24.8339 27.3466C24.3663 27.5292 23.6629 27.7451 22.368 27.8043C20.9679 27.8679 20.5474 27.8817 17.0012 27.8817C13.4548 27.8817 13.0345 27.8679 11.6345 27.8043C10.3395 27.7445 9.63672 27.5282 9.16827 27.3464C8.54848 27.1056 8.10576 26.8179 7.64092 26.3531C7.17606 25.8882 6.88829 25.4466 6.64701 24.8265C6.46523 24.3589 6.24858 23.656 6.18965 22.3611C6.126 20.961 6.11328 20.5405 6.11328 16.9938C6.11328 13.4471 6.126 13.0287 6.18965 11.6287C6.24885 10.3337 6.46523 9.6309 6.64701 9.16273C6.88775 8.54294 7.17606 8.10022 7.64092 7.63538C8.10576 7.17053 8.54848 6.88277 9.16827 6.64149C9.63644 6.45887 10.3395 6.24304 11.6345 6.18355C12.8597 6.12822 13.3345 6.11162 15.8097 6.10884V6.11216ZM24.0907 8.31744C23.2108 8.31744 22.497 9.03048 22.497 9.91064C22.497 10.7905 23.2108 11.5044 24.0907 11.5044C24.9706 11.5044 25.6845 10.7905 25.6845 9.91064C25.6845 9.03075 24.9706 8.31688 24.0907 8.31688V8.31744ZM17.0012 10.1796C13.2346 10.1796 10.1807 13.2335 10.1807 17.0001C10.1807 20.7668 13.2346 23.8193 17.0012 23.8193C20.7679 23.8193 23.8207 20.7668 23.8207 17.0001C23.8207 13.2335 20.7676 10.1796 17.0009 10.1796H17.0012ZM17.0012 12.573C19.4461 12.573 21.4284 14.5549 21.4284 17.0001C21.4284 19.4451 19.4461 21.4273 17.0012 21.4273C14.5561 21.4273 12.5741 19.4451 12.5741 17.0001C12.5741 14.5549 14.5561 12.573 17.0012 12.573Z"
-                    fill="white"
-                  />
-                  <defs>
-                    <radialGradient
-                      id="paint0_radial_instagram"
-                      cx="0"
-                      cy="0"
-                      r="1"
-                      gradientUnits="userSpaceOnUse"
-                      gradientTransform="translate(9.03129 36.6187) rotate(-90) scale(33.6965 31.3404)">
-                      <stop stopColor="#FFDD55" />
-                      <stop offset="0.1" stopColor="#FFDD55" />
-                      <stop offset="0.5" stopColor="#FF543E" />
-                      <stop offset="1" stopColor="#C837AB" />
-                    </radialGradient>
-                  </defs>
-                </svg>
-              </a> */}
+                    viewBox="0 0 34 34"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="34" height="34" rx="8" fill="#0A66C2" />
+                    <path
+                      d="M24.5326 28.9111H28.42C28.7134 28.9111 28.9512 28.6734 28.9512 28.38L28.9532 20.1666C28.9532 15.8737 28.0282 12.5739 23.0115 12.5739C21.1044 12.5031 19.306 13.4861 18.3355 15.1277V13.5015C18.3355 13.2082 18.0978 12.9703 17.8043 12.9703H14.0361C13.7427 12.9703 13.5049 13.2082 13.5049 13.5015V28.3792C13.5049 28.6727 13.7427 28.9104 14.0361 28.9104H17.9233C18.2167 28.9104 18.4545 28.6727 18.4545 28.3792V21.025C18.4545 18.9455 18.849 16.9317 21.427 16.9317C23.9684 16.9317 24.0013 19.3111 24.0013 21.1596V28.3798C24.0013 28.6732 24.2392 28.9111 24.5326 28.9111Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M7.91989 10.7915C9.49535 10.7914 10.7917 9.49414 10.7917 7.91868C10.7914 6.34322 9.4949 5.04688 7.91928 5.04688C6.34352 5.04688 5.04688 6.34352 5.04688 7.91928C5.04688 9.49504 6.34412 10.7915 7.91989 10.7915Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M5.9707 28.9115H9.86305C10.1565 28.9115 10.3943 28.6736 10.3943 28.3802V13.5019C10.3943 13.2086 10.1565 12.9707 9.86305 12.9707H5.9707C5.67731 12.9707 5.43945 13.2086 5.43945 13.5019V28.3802C5.43945 28.6736 5.67731 28.9115 5.9707 28.9115Z"
+                      fill="white"
+                    />
+                  </svg>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

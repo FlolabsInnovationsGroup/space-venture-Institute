@@ -33,12 +33,13 @@ const DoYou = () => {
           <button className="cursor-pointer hover:scale-110  transform duration-100 ease-in-out">
             <Link
               href="https://hephaestus.international/internships"
-              className="bg-gradient-to-r from-red-300 to-orange-400 rounded-2xl  text-white border-none px-12 py-4 text-lg font-bold shadow-lg transform duration-150 ease-in-out">
+              className="bg-gradient-to-r from-blue-300 to-blue-800 rounded-2xl  text-white border-none px-12 py-4 text-lg font-bold shadow-lg transform duration-300 ease-in-out">
               Apply today
             </Link>
           </button>
           <p className="text-white/80 text-sm md:text-base">
-            Remote first • Space sector startup • Experiential and venture-based learning
+            • Remote first • Space sector startup • Experiential and
+            venture-based learning
           </p>
         </div>
       </div>
