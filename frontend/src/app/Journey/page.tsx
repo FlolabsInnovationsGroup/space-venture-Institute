@@ -22,9 +22,7 @@ export default function Journey() {
       {/* 3. COMPASS */}
       <OurCompass />
       <Growing />
-      <Initiatives />
       <Foundations />
-      
       <MileStone />
       <NotAll />
       <InMotion />

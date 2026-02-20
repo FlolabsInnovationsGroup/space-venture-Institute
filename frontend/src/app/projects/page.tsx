@@ -19,7 +19,8 @@ export default function page() {
           </h1>
           <p className="text-lg md:text-xl text-white max-w-3xl mx-auto leading-[190%]">
             These are the types of projects active around Space Ventures
-            Institute—real clusters of activity that participants can plug into.
+            Institute, real clusters of activity that participants can plug
+            into.
           </p>
         </div>
 

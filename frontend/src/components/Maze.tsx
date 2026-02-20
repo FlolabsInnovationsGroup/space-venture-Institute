@@ -16,7 +16,7 @@ const Maze = () => {
               <Image src={statue} alt="Statue" fill className="object-cover" />
             </div>
             {/* cover color on the image to present the text */}
-            <div className="absolute inset-0 bg-gradient-to-b from-black via-black/40 to-black/40" />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/40 to-black/50" />
             <div className="relative z-10 text-center ">
               <h3 className="text-3xl font-bold text-white mb-4 tracking-[1px] leading-[150%] ">
                 Most people who love space don't know how to get involved.{" "}
@@ -50,7 +50,7 @@ const Maze = () => {
                 fill
                 className="object-cover opacity-60"
               />
-              <div className="absolute inset-0 bg-gradient-to-b from-black via-black/20 to-black/40" />
+              <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/40 to-black/50" />
             </div>
             <div className="relative z-10 text-center ">
               <h3 className=" text-3xl font-bold text-white mb-4 tracking-[1px] leading-[50px]  ">

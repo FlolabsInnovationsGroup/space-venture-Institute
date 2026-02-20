@@ -10,7 +10,7 @@ const Hero = () => {
         {/* LEFT */}
         <div className="flex flex-col gap-6 max-w-[650px] text-center lg:text-left">
           {/* Badge */}
-          <div className="flex items-center gap-3 bg-black rounded-[25px] shadow-md w-full mx-auto lg:mx-0 px-2 py-2">
+          {/* <div className="flex items-center gap-3 bg-black rounded-[25px] shadow-md w-full mx-auto lg:mx-0 px-2 py-2">
             <div className="flex w-[200px] md:w-fit  items-center gap-2 px-3 py-2 bg-white/60 rounded-[25px]">
               <svg
                 width="20"
@@ -29,7 +29,7 @@ const Hero = () => {
             <span className="text-white text-sm sm:text-base px-2">
               Applications for 2026 are now open!
             </span>
-          </div>
+          </div> */}
 
           {/* Title */}
           <h1 className="text-3xl sm:text-4xl lg:text-[46px] font-bold leading-tight text-white">
@@ -52,15 +52,12 @@ const Hero = () => {
 
             <p>
               From textbooks to{" "}
-              <span className="text-yellow-500 font-bold">
+              <span className="text-yellow-500 ">
                 real-world impact.
               </span>
             </p>
 
-            <p>
-              No frontiers.
-              <span className="text-yellow-500 font-bold"> No limits.</span>
-            </p>
+            
           </div>
 
           {/* CTA */}

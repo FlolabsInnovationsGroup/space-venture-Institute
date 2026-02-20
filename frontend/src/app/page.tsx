@@ -27,10 +27,6 @@ export default function Index() {
         <Maze />
         {/* <WeDo /> */}
 
-        {/* Initiatives By the Numbers */}
-
-        <Initiatives />
-
         {/* What We Offer */}
 
         <WhatWeOffer />
