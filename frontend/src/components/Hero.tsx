@@ -32,10 +32,16 @@ const Hero = () => {
               From textbooks to{" "}
               <span className="text-yellow-500 ">real-world impact.</span>
             </p>
+            <p>
+              No <span className="text-yellow-500 ">frontiers.</span> No
+              <span className="text-yellow-500 "> limits.</span>
+            </p>
           </div>
 
           {/* CTA */}
-          <Link className="self-center"  href="https://hephaestus.international/internships">
+          <Link
+            className="self-center"
+            href="https://hephaestus.international/internships">
             <button className="bg-blue-500 animate-bounce cursor-pointer  hover:text-white text-black text-lg sm:text-xl font-bold px-10 sm:px-14 py-4 rounded-[35px] transition hover:opacity-90 lg:mt-20 w-fit mx-auto lg:mx-0">
               Apply Now
             </button>
