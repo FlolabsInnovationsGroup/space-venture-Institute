@@ -13,7 +13,7 @@ export default function WhatWeDo() {
     {
       title: "Practical exposure ",
       description:
-        "You see how space products, experiences, and services are defined, priced, positioned, and delivered—not just in theory.",
+        "You see how space products, experiences, and services are defined, priced, positioned, and delivered, not just in theory.",
     },
     {
       title: "Portfolio, community & flexibility",

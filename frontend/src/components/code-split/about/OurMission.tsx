@@ -19,7 +19,7 @@ export default function OurMission() {
             space-curious talent and real space economy projects. <br /> We sit
             inside a broader ecosystem that includes CAIPO, MoodChanger,
             RoboCollective.ai, and R&D on humanoid and robotic platforms. <br />{" "}
-            Remote first by design—you join from anywhere, collaborate online,
+            Remote first by design, you join from anywhere, collaborate online,
             and choose the projects that best fit your interests.
           </p>
         </div>

@@ -13,7 +13,7 @@ const OueValues = () => {
     {
       title: "Learn by doing",
       description:
-        "Experiential learning—you contribute to live initiatives and walk away with a portfolio you can show.",
+        "Experiential learning:you contribute to live initiatives and walk away with a portfolio you can show.",
     },
     {
       title: "Community and curiosity",

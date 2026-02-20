@@ -47,8 +47,8 @@ const WhoWeServe = () => {
           </h3>
           <p className="text-white text-[22px] font-normal">
             <br />
-            From software, data, design, marketing, or operations—you want to
-            pivot into the space sector.
+            From software, data, design, marketing, or operations <br /> you
+            want to pivot into the space sector.
           </p>
         </div>
 

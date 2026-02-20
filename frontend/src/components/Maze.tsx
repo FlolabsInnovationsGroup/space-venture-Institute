@@ -29,7 +29,7 @@ const Maze = () => {
                 Many roles require specific schools, locations, or{" "}
                 <span className="text-[#F2784B]">networks</span>.
                 <p className="tracking-[1px] leading-[150%]">
-                  Meanwhile the space economy is expanding—tourism, robotics,
+                  Meanwhile the space economy is expanding tourism, robotics,
                   AI, content.{" "}
                   <span className="text-[#F2784B] tracking-[3px]">
                     There's a gap we're here to close.
@@ -55,7 +55,8 @@ const Maze = () => {
                 We close the gap by giving you{" "}
                 <span className="text-[#F2784B]">real work</span> on real
                 space-related products and services, exposure to space tourism,
-                robotics, and content—and helping you build a{" "}
+                robotics, and content <br />
+                and helping you build a{" "}
                 <span className="text-[#F2784B]">portfolio</span> that connects
                 directly to this growing sector.
               </h3>

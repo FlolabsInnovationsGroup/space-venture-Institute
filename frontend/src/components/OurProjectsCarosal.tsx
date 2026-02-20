@@ -73,12 +73,13 @@ const OurProjectsCarosal: React.FC = () => {
     <section className="rounded-[25px] overflow-hidden pt-12 px-4 mb-4  ">
       <div className="flex flex-col items-center gap-6">
         <h2 className="text-white text-[40px] font-bold underline text-center">
-          What We Are Building Right Now
+          What We Are Building
         </h2>
         <p className="text-white text-lg text-center max-w-[600px] leading-[140%]">
-          Real clusters of activity—CAIPO Space Buddy, MoodChanger for space,
-          Space Travel Agency, humanoid & robotics, media, websites, grants—that
-          participants can plug into.
+          Real clusters of activity: <br />
+          CAIPO Space Buddy, MoodChanger for space, Space Travel Agency,
+          humanoid & robotics, media, websites, grants that participants can
+          plug into.
         </p>
 
         <div className="relative w-full max-w-[1428px] py-10">

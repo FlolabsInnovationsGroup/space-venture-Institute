@@ -8,7 +8,7 @@ const Foundations = () => {
             Foundations: Our Ecosystem
           </h1>
           <p className="mt-4 text-gray-300 text-base sm:text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            We sit inside a broader ecosystem that makes our work possible—and
+            We sit inside a broader ecosystem that makes our work possible and
             that participants can plug into.
           </p>
         </div>
@@ -23,7 +23,7 @@ const Foundations = () => {
             </h2>
             <p className="text-gray-300 text-[18px] leading-relaxed">
               An AI wearable and assistant that can evolve into a Space
-              Buddy—support, guidance, and inspiration for space tourists,
+              Buddy support, guidance, and inspiration for space tourists,
               analog astronauts, and everyday space enthusiasts.
             </p>
           </div>
@@ -36,7 +36,7 @@ const Foundations = () => {
               MoodChanger
             </h2>
             <p className="text-gray-300 text-[18px] leading-relaxed">
-              A human performance and wellbeing platform—adapted for space
+              A human performance and wellbeing platform adapted for space
               health, stress and mood tracking, and wellbeing tools for space
               tourism and training.
             </p>
@@ -51,7 +51,7 @@ const Foundations = () => {
             </h2>
             <p className="text-gray-300 text-[18px] leading-relaxed">
               A robotics reseller and integration brand, plus internal R&D on
-              humanoid robots and other robotic platforms—connected to the Space
+              humanoid robots and other robotic platforms connected to the Space
               Ventures narrative.
             </p>
           </div>

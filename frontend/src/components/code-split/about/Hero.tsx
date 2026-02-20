@@ -25,7 +25,7 @@ export default function Hero() {
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-white max-w-[800px] leading-relaxed">
               Advance your space career. Be at the center of the future. Remote
-              first, open to the world—a space sector venture studio and
+              first, open to the world a space sector venture studio and
               experiential learning institute where space, AI, robotics, and
               real projects meet.
             </p>

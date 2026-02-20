@@ -56,7 +56,7 @@ const OurCompass = () => {
               },
               {
                 title: "Exposing you to space tourism, robotics, tools, and content",
-                desc: "As they actually operate—not just in theory.",
+                desc: "As they actually operate, not just in theory.",
               },
               {
                 title: "Helping you build a portfolio and mindset",

@@ -62,8 +62,8 @@ export default function WeDonot() {
                 text-2xl xs:text-[26px] sm:text-3xl md:text-[34px] lg:text-[38px] 
                 block sm:inline
               ">
-              Focused on real, near-term space opportunities. You bring
-              curiosity and drive—
+              Focused on real, near-term space opportunities. <br /> You bring
+              curiosity and drive
             </span>{" "}
             <span
               className="

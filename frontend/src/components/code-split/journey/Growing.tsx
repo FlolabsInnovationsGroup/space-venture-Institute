@@ -9,20 +9,28 @@ const Growing = () => {
 
       <div className="flex flex-col gap-6">
         <h3 className="text-2xl text-white">
-          <span className=" text-[#F2784B] font-bold">Remote first</span> by design—you join from anywhere, collaborate online, and choose the projects that best fit your interests.
+          <span className=" text-[#F2784B] font-bold">Remote first</span> by
+          design , you join from anywhere, collaborate online, and choose the
+          projects that best fit your interests.
         </h3>
 
         <p className="text-2xl text-white max-w-2xl mx-auto ">
-          In our ecosystem, we connect space-curious talent with real space economy projects.{" "}
+          In our ecosystem, we connect space-curious talent with real space
+          economy projects.{" "}
           <span className="text-[#F2784B] font-bold">
             Your time converts to skills, outputs, and momentum
-          </span>.
+          </span>
+          .
         </p>
         <p className="text-2xl text-white">
-          Everything is designed so you can manage your time realistically while contributing to CAIPO, MoodChanger, the Space Travel Agency, robotics, media, and more.
+          Everything is designed so you can manage your time realistically while
+          contributing to CAIPO, MoodChanger, the Space Travel Agency, robotics,
+          media, and more.
         </p>
         <p className="text-2xl text-white">
-          One stream today, <span className="text-[#F2784B] font-bold">more tomorrow</span>—as the ecosystem grows, new opportunities open.
+          One stream today,{" "}
+          <span className="text-[#F2784B] font-bold">more tomorrow. </span>{" "}
+          <br /> as the ecosystem grows, new opportunities open.
         </p>
       </div>
 

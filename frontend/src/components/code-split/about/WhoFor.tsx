@@ -9,7 +9,7 @@ const WhoFor = () => {
     {
       title: "Career changers",
       description:
-        "From software, data, design, marketing, or operations—you want to pivot into the space sector.",
+        "From software, data, design, marketing, or operations ,you want to pivot into the space sector.",
     },
     {
       title: "Founders & aspiring founders",

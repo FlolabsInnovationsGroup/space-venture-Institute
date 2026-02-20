@@ -10,13 +10,14 @@ const HowWeWork = () => {
           </h2>
 
           <p className="text-xl md:text-2xl lg:text-[28px] font-medium text-white mb-6 leading-relaxed">
-            Apply and tell us your story. Choose the project streams you want
-            (CAIPO Space Buddy, MoodChanger, Space Travel Agency, humanoid and
-            robotics, space media, websites, grants). Work in structured sprints
-            in project pods. Ship work that plugs into live or in-development
-            projects, get feedback, refine, and grow. As the ecosystem expands,
-            new opportunities open—everything is designed so your time converts
-            to skills, outputs, and momentum.
+            Apply and tell us your story. <br /> Choose the project streams you
+            want (CAIPO Space Buddy, MoodChanger, Space Travel Agency, humanoid
+            and robotics, space media, websites, grants). <br /> Work in
+            structured sprints in project pods. <br /> Ship work that plugs into
+            live or in development projects, get feedback, refine, and grow.{" "}
+            <br /> As the ecosystem expands, new opportunities open <br />{" "}
+            everything is designed so your time converts to skills, outputs, and
+            momentum.
           </p>
         </div>
       </div>
