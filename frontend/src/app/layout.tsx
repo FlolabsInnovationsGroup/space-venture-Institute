@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Space Ventures Institute",
   description:
-    "Advance your space career. A remote-first space venture studio and experiential learning institute—real projects, CAIPO, MoodChanger, Space Travel Agency, and robotics.",
+    "Advance your space career. A remote-first space venture studio and experiential learning institute: real projects, CAIPO, MoodChanger, Space Travel Agency, and robotics.",
 };
 
 export default function RootLayout({

@@ -13,7 +13,7 @@ const Hero = () => {
         className="object-cover  "
         alt="Space Ventures Institute"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/50 to-black/60" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/80 to-black/60" />
       <div className="relative z-10 ">
         <h1 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight text-[#1a1a1a] dark:text-white">
           Space Ventures Institute
