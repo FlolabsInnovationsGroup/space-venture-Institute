@@ -10,9 +10,9 @@ const InMotion = () => {
             In Motion: What We're Building Right Now
           </h1>
           <p className="mt-4 text-gray-300 text-base sm:text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            We are a startup, so we keep the focus tight and real. These are the
-            types of projects active around Space Ventures Institute—real
-            clusters of activity that participants can plug into.
+            We are a startup, so we keep the focus tight and real. <br /> These
+            are the types of projects active around Space Ventures Institute,
+            real clusters of activity that participants can plug into.
           </p>
         </div>
 
@@ -44,9 +44,10 @@ const InMotion = () => {
               Humanoid & Robotics + Grants & Partnerships
             </h2>
             <p className="text-gray-300 text-[18px] leading-relaxed">
-              Humanoid and robotic platforms plus RoboCollective.ai; space media
-              and events; websites and digital presence; grants, funding, and
-              partnerships with universities and space organizations.
+              Humanoid and robotic platforms plus RoboCollective.ai, space media
+              and events <br /> websites and digital presence;
+              <br /> grants, funding, and partnerships with universities and
+              space organizations.
             </p>
           </div>
         </div>

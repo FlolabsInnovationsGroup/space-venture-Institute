@@ -1,7 +1,6 @@
 const JoinUs = () => {
   return (
     <section className=" relative rounded-[25px] overflow-hidden py-16 px-10 mb-4 ">
-      
       <h1 className="w-[calc(90%-150px)] bg-[#F2784B] absolute top-65 left-30  h-2 text-[#F2784B] hidden xl:block"></h1>
 
       {/* <p className="text-white text-lg mb-8">Who We Serve</p> */}
@@ -19,7 +18,7 @@ const JoinUs = () => {
           </div>
           <h3 className="text-white text-2xl font-medium">Apply</h3>
           <p className="text-white text-lg text-center">
-            Tell us your story—background, skills, interests, and why you care
+            Tell us your story, background, skills, interests, and why you care
             about space and this kind of work.
           </p>
         </div>
@@ -30,7 +29,7 @@ const JoinUs = () => {
           </div>
           <h3 className="text-white text-2xl font-medium">Choose streams</h3>
           <p className="text-white text-lg text-center">
-            Pick the project streams you want—CAIPO Space Buddy, MoodChanger,
+            Pick the project streams you want: CAIPO Space Buddy, MoodChanger,
             Space Travel Agency, robotics, media.
           </p>
         </div>

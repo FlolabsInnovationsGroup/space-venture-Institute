@@ -17,14 +17,15 @@ const DeepDive = () => {
             Most people who love space do not know how to get involved.{" "}
             <span className="text-[#F2784B]">
               Space jobs feel distant and gated
-            </span>
-            ; internships are limited; many roles require specific schools,
+            </span>{" "}
+            <br />
+            internships are limited <br /> many roles require specific schools,
             locations, or networks.
           </p>
           <p>
-            At the same time, the space economy is expanding—tourism, robotics,
-            AI, wearables, and demand for space content and education. There is
-            a gap between passion and real projects.{" "}
+            At the same time, the space economy is expanding tourism, robotics,
+            AI, wearables, and demand for space content and education. <br />{" "}
+            There is a gap between passion and real projects.{" "}
             <span className="text-[#F2784B]">
               Space Ventures Institute exists to close that gap
             </span>{" "}
@@ -49,8 +50,8 @@ const DeepDive = () => {
             </div>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
               CAIPO Space Buddy, MoodChanger for space, Space Travel Agency,
-              humanoid and robotic platforms—tasks that plug into live or
-              in-development initiatives.
+              humanoid and robotic platforms, tasks that plug into live or in
+              development initiatives.
             </p>
           </div>
           <div className="p-8 bg-white dark:bg-white/5 rounded-xl border border-gray-200 dark:border-white/5 hover:border-levi-red shadow-sm transition-colors">
@@ -67,7 +68,7 @@ const DeepDive = () => {
             </div>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
               See how space products, experiences, and services are defined,
-              priced, positioned, and delivered—tourism, robotics, tools,
+              priced, positioned, and delivered tourism, robotics, tools,
               content, and partnerships as they actually operate.
             </p>
           </div>
@@ -85,7 +86,7 @@ const DeepDive = () => {
             </div>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
               Build a portfolio and mindset that connect directly to this
-              growing sector—concrete contributions you can show, from website
+              growing sector concrete contributions you can show, from website
               sections to research to product features.
             </p>
           </div>
@@ -103,8 +104,8 @@ const DeepDive = () => {
             </div>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
               Join from anywhere, manage your time realistically, and choose the
-              project streams that best fit your interests. Your time converts
-              to skills, outputs, and momentum.
+              project streams that best fit your interests. <br /> Your time
+              converts to skills, outputs, and momentum.
             </p>
           </div>
           {/*  */}

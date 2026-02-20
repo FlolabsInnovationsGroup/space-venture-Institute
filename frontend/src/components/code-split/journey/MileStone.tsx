@@ -12,19 +12,19 @@ const MileStone = () => {
         <div className="grid md:grid-cols-2 gap-6">
           <MilestoneCard
             title="Space Ventures Institute"
-            desc="A venture studio and experiential learning institute focused on real, near-term space opportunities—where participants learn by building and shipping."
+            desc="A venture studio and experiential learning institute focused on real, near-term space opportunities, where participants learn by building and shipping."
           />
           <MilestoneCard
             title="CAIPO as Space Buddy"
-            desc="Exploring how the wearable AI assistant can support space tourists, analog astronauts, and future crews—plus a consumer app and space inspiration feed."
+            desc="Exploring how the wearable AI assistant can support space tourists, analog astronauts, and future crews, plus a consumer app and space inspiration feed."
           />
           <MilestoneCard
             title="Space Travel Agency & MoodChanger for Space"
-            desc="Building an online Space Travel Agency and adapting MoodChanger for space health and wellbeing—real products and experiences in the space economy."
+            desc="Building an online Space Travel Agency and adapting MoodChanger for space health and wellbeing real products and experiences in the space economy."
           />
           <MilestoneCard
             title="Humanoid & Robotics + RoboCollective.ai"
-            desc="Developing and exploring robotic platforms with a space angle; reselling and integrating through RoboCollective.ai; connecting robotics to the Space Ventures narrative."
+            desc="Developing and exploring robotic platforms with a space angle. <br/>  reselling and integrating through RoboCollective.ai <br/>  connecting robotics to the Space Ventures narrative."
           />
         </div>
       </div>

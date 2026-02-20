@@ -9,17 +9,25 @@ const JoinUs = () => {
       </h2>
       <div className="flex flex-col gap-5 mb-10 text-[20px]">
         <p className="text-[#F2784B]">
-          You bring the curiosity, skills, and drive. We provide the projects, structure, and community.
+          You bring the curiosity, skills, and drive. We provide the projects,
+          structure, and community.
         </p>
 
         <p>
-          If you want to help shape CAIPO as a Space Buddy, adapt MoodChanger for space, build the Space Travel Agency, contribute to humanoid and robotics, or work on space media and partnerships—you are exactly the type of person we want to hear from.
+          If you want to help shape CAIPO as a Space Buddy, adapt MoodChanger
+          for space, build the Space Travel Agency, contribute to humanoid and
+          robotics, or work on space media and partnerships, you are exactly the
+          type of person we want to hear from.
         </p>
         <p>
-          <span className="text-[#F2784B]">Advance your space career.</span> Be at the center of the future.
+          <span className="text-[#F2784B]">Advance your space career.</span> Be
+          at the center of the future.
         </p>
 
-        <p>Remote first • Space sector startup • Experiential and venture-based learning</p>
+        <p>
+          •Remote first •Space sector startup •Experiential and venture-based
+          learning
+        </p>
 
         <Image
           src={logo}

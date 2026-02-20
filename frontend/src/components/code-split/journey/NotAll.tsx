@@ -10,14 +10,34 @@ const NotAll = () => {
             But That's Not All
           </h1>
           <p className="mt-4 text-gray-300 text-base sm:text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            We also work on <span className="text-[#F2784B]">space media, conferences, and online events</span>—digital formats that highlight founders, researchers, students, and creators at the intersection of space, AI, robotics, health, and travel.
+            We also work on{" "}
+            <span className="text-[#F2784B]">
+              space media, conferences, and online events
+            </span>
+            <br />
+            digital formats that highlight founders, researchers, students, and
+            creators at the intersection of space, AI, robotics, health, and
+            travel.
           </p>
           <p>
-            Plus <span className="text-[#F2784B]">websites, brand, and digital presence</span> for Space Ventures Institute, the Space Travel Agency, and RoboCollective.ai—landing pages, funnels, and storytelling that make space feel both inspiring and accessible.
+            Plus{" "}
+            <span className="text-[#F2784B]">
+              websites, brand, and digital presence
+            </span>{" "}
+            for Space Ventures Institute, the Space Travel Agency, and
+            RoboCollective.ai, landing pages, funnels, and storytelling that
+            make space feel both inspiring and accessible.
           </p>
-          <p className="text-[20px] font-bold">Grants, Funding & Partnerships</p>
+          <p className="text-[20px] font-bold">
+            Grants, Funding & Partnerships
+          </p>
           <p>
-            We research and apply for <span className="text-[#F2784B]">grants and funding</span> aligned with space, AI, robotics, health, and education—and build partnerships with universities, research labs, space organizations, and space tourism providers so students and career changers can contribute to funded work.
+            We research and apply for{" "}
+            <span className="text-[#F2784B]">grants and funding</span> aligned
+            with space, AI, robotics, health, and education , build partnerships
+            with universities, research labs, space organizations, and space
+            tourism providers so students and career changers can contribute to
+            funded work.
           </p>
         </div>
 

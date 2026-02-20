@@ -12,13 +12,20 @@ const PathForward = () => {
       <div className="flex flex-col gap-6">
         <p className="text-2xl text-white max-w-2xl mx-auto ">
           We're moving forward with{" "}
-          <span className="text-[#F2784B] font-bold">purpose</span>: from what we've built to what we're creating next in the space economy.
+          <span className="text-[#F2784B] font-bold">purpose</span>: from what
+          we've built to what we're creating next in the space economy.
         </p>
 
         <p className="text-2xl text-white">
-          As Space Ventures Institute, CAIPO, MoodChanger, RoboCollective.ai, and related projects expand,{" "}
-          <span className="text-[#F2784B] font-bold">new opportunities</span> open. Everything is designed so your time converts to skills, outputs, and momentum—{" "}
-          <span className="text-[#F2784B] font-bold">shaping the future of space</span>.
+          As Space Ventures Institute, CAIPO, MoodChanger, RoboCollective.ai,
+          and related projects expand,{" "}
+          <span className="text-[#F2784B] font-bold">new opportunities</span>{" "}
+          open. <br /> Everything is designed so your time converts to skills,
+          outputs, and momentum{" "}
+          <span className="text-[#F2784B] font-bold">
+            shaping the future of space
+          </span>
+          .
         </p>
       </div>
     </section>
