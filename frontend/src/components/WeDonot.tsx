@@ -1,6 +1,8 @@
 import Image from "next/image";
 import img from "../../public/assets/space/earth.webp";
 
+
+
 export default function WeDonot() {
   return (
     <section

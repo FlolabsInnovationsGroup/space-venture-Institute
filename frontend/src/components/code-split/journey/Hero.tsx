@@ -1,9 +1,9 @@
 import Image from "next/image";
-import heroImage from "../../../../public/assets/space/journey.png";
+import heroImage from "../../../../public/assets/updates/jurneyhero.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative pt-40 pb-20 px-6  w-full h-[100vh] overflow-hidden text-center bg-gray-950 transition-colors my-8">
+    <section className="relative pt-40 pb-20 px-6  w-full h-[100vh] mt-20 overflow-hidden text-center bg-gray-950 transition-colors my-8">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-levi-red/5 blur-[120px] rounded-full -z-10" />
       {/* Background Image */}
 

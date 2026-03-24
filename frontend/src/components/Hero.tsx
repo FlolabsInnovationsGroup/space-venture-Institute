@@ -1,7 +1,8 @@
 import Image from "next/image";
-import heroImage1 from "../../public/assets/space/hero2.png";
-import heroImage2 from "../../public/assets/space/hero3.jpg";
+import heroImage1 from "../../public/assets/updates/homehero.jpg";
 import Link from "next/link";
+
+
 
 const Hero = () => {
   return (

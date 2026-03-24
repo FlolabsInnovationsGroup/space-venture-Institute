@@ -1,9 +1,9 @@
 "use client";
 
-import humanoidImg from "../../public/assets/space/project1.jpeg";
-import aiBuddyImg from "../../public/assets/space/project2.png";
+import humanoidImg from "../../public/assets/space/humaniod.png";
+import aiBuddyImg from "../../public/assets/space/granting.jpg";
 import legalFramworkImg from "../../public/assets/space/project3.jpg";
-import experientialImg from "../../public/assets/space/project4.png";
+import experientialImg from "../../public/assets/updates/spacetravel.jpg";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 
