@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "dependabot/npm_and_yarn/v3/js-yaml-4.3.2",
+    "dependabot/npm_and_yarn/v3/next-16.3.3",
+    "dependabot/npm_and_yarn/v3/sharp-0.35.4",
+    "main"
+  ],
+  "parent": {
+    "dependabot/npm_and_yarn/v3/js-yaml-4.3.2": "main",
+    "dependabot/npm_and_yarn/v3/next-16.3.3": "main",
+    "dependabot/npm_and_yarn/v3/sharp-0.35.4": "main",
+    "main": null
+  },
+  "order": [
+    "main",
+    "dependabot/npm_and_yarn/v3/js-yaml-4.3.2",
+    "dependabot/npm_and_yarn/v3/next-16.3.3",
+    "dependabot/npm_and_yarn/v3/sharp-0.35.4"
+  ]
+}
